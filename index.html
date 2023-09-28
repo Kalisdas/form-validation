@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./animate.css"> -->
+    <script src="./script.js" defer ></script>
+</head>
+<body>
+    <!-- <div class="sec2">Registration Form
+    <form>
+        <div class="name">
+        <label>Your name:</label>
+         <input type="text" placeholder="Please enter your name">
+        </div>
+        <div class="number">
+        <label>your mobile number:</label>
+        <input type="text" placeholder="Enter your mobile number">
+        </div>
+        <div class="email">
+        <label>Email address:</label>
+        <input type="text" placeholder="Enter your Email address">
+        </div>
+        <div class="password">
+            <label>Password:</label>
+            <input type="text" placeholder="Enter your Password">
+            </div>
+            <div class="re-password">
+                <label>Re-Enter password:</label>
+                <input type="text" placeholder="Please re-enter your password">
+                </div>
+    </form>
+    <input type="checkbox" class="agree">Agree Terms and conditions
+    <button class="btn">Register</button>
+    </div> -->
+    <div class="container">
+       <img src="./Screenshot 2023-09-07 174900.png" height="430px" width="380px" class="img">
+       <form action= "">
+        <div class="register"><h3>Register Form</h3></div>
+        <div class="user">
+            <label>Username:</label>
+            <input type="text" placeholder="Enter Username" id="username" required>
+            <div></div>
+        </div>
+       <div class="email">
+        <label>Email:</label>
+        <input type="text" placeholder="Enter Email" id="emai" required>
+        <div></div>
+       </div>
+       <div class="mob">
+        <label>Mobile Number:
+            <input type="text" id="mobile" placeholder="Enter your mobile number" required>
+        </label>
+        <div></div>
+       </div>
+       <div class="pass">
+          <label>Password:</label>  
+          <input type="password" placeholder="password" id="password" required>
+       </div>
+          <div class="repass">
+            <label>Re-enter password:</label>
+            <input type="password" placeholder="Re-enter password" id="repass" required>
+          </div>
+           <div>    
+            <input type="checkbox" class="agre" id="agr"  required
+            > <label for="">Agree Terms and conditions</label>
+           </div>
+           <div>
+            <button type="submit"  onclick="validate()" class="btn">Register</button>
+           </div>
+
+       </form>
+    </div>
+</body>
+</html>
